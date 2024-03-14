@@ -1,0 +1,61 @@
+/* Update App.css */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+  /* margin: 20px; */
+  background-color: rgb(10, 9, 14);
+  height: 100vh;
+}
+
+h1 {
+  color: #f0e800;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #f0e800;
+  color: black;
+}
+
+.buttons-container {
+  
+  gap: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+li {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Add this style to give some spacing between settled transactions */
+ul + ul {
+  margin-top: 20px;
+}
+.results{
+  display: flex;
+  color: white;
+  text-align: center;
+  justify-content: space-between;
+  width: 50%;
+}
+.settled{
+  text-align: center;
+  margin-left: 2%;
+  
+}
